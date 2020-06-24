@@ -1,9 +1,6 @@
 import click
 import requests
 
-api_key = 'ee1985a3c8dd3e12766aebbc30c9c9c34bab43da'
-redash_url = 'https://app.redash.trendemon.com/'
-
 template = u"""/*
 Name: {name}
 Data source: {data_source}
